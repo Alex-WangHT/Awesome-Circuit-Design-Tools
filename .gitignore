@@ -1,0 +1,25 @@
+# Local editor and operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Local environment and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+
+# Build outputs and dependency caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+
+# Local Git worktrees
+.worktrees/
